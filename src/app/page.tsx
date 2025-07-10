@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FileText, Mail, Phone, Download, Eye, ChevronDown, Linkedin, Github, Twitter, Code, BookOpen } from 'lucide-react'
-// import Timeline from '@/components/Timeline'
+import Timeline from '@/components/Timeline'
 
 interface DropdownItem {
   label: string
@@ -332,8 +332,8 @@ export default function Home() {
         </div>
       </div>
       
-      {/* Timeline Section - Temporarily disabled */}
-      {/* <Timeline /> */}
+      {/* Timeline Section */}
+      <Timeline />
     </div>
   )
 }
