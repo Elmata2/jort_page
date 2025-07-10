@@ -330,10 +330,10 @@ export default function Home() {
             </motion.div>
           </motion.div>
         </div>
+        
+        {/* Timeline Section */}
+        <Timeline />
       </div>
-      
-      {/* Timeline Section */}
-      <Timeline />
     </div>
   )
 }
